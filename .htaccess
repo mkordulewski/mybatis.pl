@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^((.*)\.)?(mybatis\.pl)$ [NC]
+RewriteRule ^ http://www.mybatis.org/mybatis-3/ [R=302,L,NE]
